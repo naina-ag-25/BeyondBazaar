@@ -1,0 +1,70 @@
+.navbar {
+  background-color: whitesmoke !important;
+
+}
+
+.logo {
+  margin-left: 4%;
+}
+
+.menu {
+  margin-right: 50px;
+}
+
+.dropdown button:focus {
+  border: none;
+}
+
+.dropdown .dropdown-item:focus {
+  border: none;
+  outline: none;
+}
+*{
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+
+.side {
+  width: 15%;
+  height: 100vh;
+  padding: 2%;
+  top: 0;
+  bottom: 0;
+  background-color: whitesmoke;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.side .icon{
+  margin-right: 2%;
+  
+}
+.options li{
+  margin-bottom:5% ;
+}
+.side .options
+{
+  font-size: 18px;
+  margin-top: 14%;
+
+}
+.side .options  :hover
+{
+  color: red;
+}
+.side .profile{
+  text-align : center;
+}
+.side #profile{
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  margin-top:5%;
+  margin-bottom: 5%;
+ }
